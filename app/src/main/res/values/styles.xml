@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OptionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/option_bg</item>
+    </style>
+
+    <style name="Widget.Eazy.WhitePillButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/btn_white_pill_ripple</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Якщо десь використано MaterialButton -->
+    <style name="Widget.Eazy.MaterialWhitePill" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/btn_white_tint</item>
+        <item name="rippleColor">@color/btn_ripple</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>

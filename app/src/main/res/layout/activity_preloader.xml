@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/blue"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_black_rounded"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/icon_512" />
+
+        <TextView
+            android:fontFamily="@font/bold"
+            android:id="@+id/textBlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:alpha="0.9"
+            android:padding="16dp"
+            android:text="умная подготовка к работе!"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/linearProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:fontFamily="@font/medium"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/loadingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Загрузка..."
+            android:textColor="@android:color/white" />
+
+        <ProgressBar
+            android:layout_marginBottom="20dp"
+            android:id="@+id/circularProgress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</RelativeLayout>
